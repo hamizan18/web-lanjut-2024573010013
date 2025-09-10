@@ -153,4 +153,5 @@ Ada bebrapa kendala yang menurut saya menyulitkan dalam menggunakan laravel yait
 - Laravel Artisan CLI - https://informatika.ciputra.ac.id/2019/10/laravel-artisan/
 - Laravel Testing (PHPUnit) - https://qadrlabs.com/post/testing-laravel-dengan-phpunit
 - Diagram MVC dan cara kerjanya - https://www.dicoding.com/blog/apa-itu-mvc-pahami-konsepnya/
+- Struktur Project Laravel (Folder-folder dan files) - https://www.barajacoding.or.id/mengenal-struktur-folder-dan-file-pada-laravel/
 ---
