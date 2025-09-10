@@ -51,6 +51,64 @@ Arsitektur MVC (Model-View-Controller) adalah pola desain yang memisahkan logka 
 ---
 
 ## 3. Berikan penjelasan untuk setiap folder dan files yang ada didalam sebuah project laravel.
+#### Folder
+ 1. App
+  Folder app berisi kode-kode inti dari aplikasi seperti Model, Controller, Commands, Listener, Events, dll. Poinnya, hampir semua class dari aplikasi berada di folder ini.
+
+ 2. Bootstrap
+  Folder bootstrap berisi file app.php yang dimana akan dipakai oleh Laravel untuk boot setiap kali dijalankan.
+
+ 3. Config
+  Folder config seperti namanya, berisi semua file konfigurasi aplikasi anda.
+
+ 4. Database
+  Folder database berisi database migrations, model factories, dan seeds. Folder ini akan bertanggung jawab dengan pembuatan dan pengisian tabel-tabel database.
+
+ 5. Public
+  Folder public memiliki file index.php yaitu entry point dari semua resuests yang masuk/diterima ke aplikasi. Folder ini juga tempat menampung gambar, JavaScript, dan CSS.
+
+ 6. Resources
+  Flder resources berisi semua route yang disediakan aplikasi. Sebagai default, beberapa file routing akan tersedia seperti: web.php, api.php, console.php, dan channels.php. Folder ini adalah tempat dimana kita memberikan koleksi definisi route aplikasi.
+
+ 7. Storage
+  Folder storage adalah tempat dimana cache logs, dan file sistem yang ter-compile hidup.
+
+ 8. Tests
+  Folder tests adalah tempat dimana unit dan integration tests tinggal.
+
+ 9. Vendor
+  Folder vendor adalah tempat dimana folder-folder dependencies third-party yang telah di-install oleh composer berada.
+
+#### Files
+ 1. .editorconfig
+  Berguna untuk memberi IDE/text editor instruksi tentang standa coding Laravel seperti whitespace, besar indentasi, dll.
+
+ 2. .env dan .env.example
+  Tempat dimana variabel environment aplikasi ditempatkan (variabel yang diekspektasikan akan berbeda di setiap sistem) seperti nama database, usernam database, password database.
+
+ 3. .gitignore dan .gitattributes
+  File untuk konfigurasi git.
+
+ 4. artisan
+  Memungkinkan nada untuk menjalankan perintah artisan dari command line.
+
+ 5. composer.json dan composer.lock
+  File konfigurasi untuk composer. File ini adalah informasi dasar tentang project dan juga mendefinisikan dependencies yang digunakan.
+
+ 6. package.json
+  Mirip-mirip dengan composer.json tapi untuk aset-aset dan dependencies front-end. 
+
+ 7. phpunit.xml
+  Sebuah file konfigurasi untuk PHPUnit, tools yang digunakan Laravel untuk testing.
+
+ 8. readme.md
+  Sebuah markdown file yang memberikan pengenalan dasar tentang Laravel.
+
+ 9. server.php
+  Server cadangan yang mencoba untuk tetap menjalankan aplikasi Laravel kepada server yang kurang mampu.
+
+ 10. webpack.mix.js
+  Konfigurasi file untuk Mix (opsional). File ini adalah untuk membangun arahan system soal bagaimana meng-compile.
 
 ---
 
